@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap');
+
+  
+body{
+    font-family: 'Outfit', sans-serif;
+    letter-spacing: 0.5px;
+    color: #1e1e1e;
+}
+
+.body{
+    padding: 60px 60px 70px 70px;
+}
+
+.job-position{
+    color:#838383;
+}
+
+
+
+#location {
+    padding-top: 150px;
+}
+
+.footer{
+
+    padding-bottom: auto;
+}
+
+.year{
+    padding-top: 90px;
+}
+
+.links{
+    padding-top: 90px;
+}
+
+#hover-effect {
+    text-decoration: none;
+    position: relative;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  #hover-effect:hover {
+    color: #000000;
+  }
+  
+  #hover-effect::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: calc(100% + 1.3px);
+    height: 1.3px;
+    background-color: #000000;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  #hover-effect:hover::after {
+    transform: scaleX(1);
+  }
+  
+
+
+
+#telegram-hover:hover {
+  background: #0088cc;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#email-hover:hover {
+  background: #ee6c4d;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#instagram-hover:hover {
+  background: linear-gradient(45deg, #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#spotify:hover{
+  color: #1DB954;
+}
