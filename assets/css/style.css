@@ -1,13 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap');
 
-  
+
 body{
     font-family: 'Outfit', sans-serif;
     letter-spacing: 0.5px;
-    color: #1e1e1e;
+    
 }
 
-.job-position:hover{
+.body{
+    color: #FFFFFF;
+    background-color: #232323;
+}
+
+#kaspi:hover{
     color:#F14635;
     cursor: pointer;
 }
@@ -42,17 +47,17 @@ body{
   }
   
   #hover-effect:hover {
-    color: #000000;
+    color: #68a691;
   }
   
-  #hover-effect::after {
+  /* #hover-effect::after {
     content: "";
     position: absolute;
     left: 0;
     bottom: 0;
     width: calc(100% + 1.3px);
     height: 1.3px;
-    background-color: #000000;
+    background-color: #ff5151;
     transform: scaleX(0);
     transform-origin: left;
     transition: all 0.3s ease-in-out;
@@ -60,7 +65,7 @@ body{
   
   #hover-effect:hover::after {
     transform: scaleX(1);
-  }
+  } */
   
 
 
