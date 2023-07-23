@@ -8,8 +8,8 @@ body{
 }
 
 .body{
-    color: #FFFFFF;
-    background-color: #232323;
+    color: #232323;
+    background-color: #FFFFFF;
 }
 
 #kaspi:hover{
@@ -47,17 +47,17 @@ body{
   }
   
   #hover-effect:hover {
-    color: #68a691;
+    color: #838383;
   }
   
-  /* #hover-effect::after {
+   #hover-effect::after {
     content: "";
     position: absolute;
     left: 0;
     bottom: 0;
     width: calc(100% + 1.3px);
     height: 1.3px;
-    background-color: #ff5151;
+    background-color: #838383;
     transform: scaleX(0);
     transform-origin: left;
     transition: all 0.3s ease-in-out;
@@ -65,7 +65,7 @@ body{
   
   #hover-effect:hover::after {
     transform: scaleX(1);
-  } */
+  } 
   
 
 
